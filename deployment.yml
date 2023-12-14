@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: myappDeployment
+  name: myapp-deployment
   labels:
     type: production
 spec:
@@ -16,5 +16,5 @@ spec:
         type: production
     spec:
       containers:
-      -  name: myappNginx
+      -  name: myapp-ginx
          image: nginx
