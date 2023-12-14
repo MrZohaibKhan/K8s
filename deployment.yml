@@ -16,5 +16,5 @@ spec:
         type: production
     spec:
       container:
-      -   name: myapp_nginx
-          image: nginx
+      -  name: myapp_nginx
+         image: nginx
