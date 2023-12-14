@@ -15,6 +15,6 @@ spec:
       labels:
         type: production
     spec:
-      container:
+      containers:
       -  name: myapp_nginx
          image: nginx
