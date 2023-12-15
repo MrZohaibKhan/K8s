@@ -3,8 +3,8 @@ kind: Service
 metadata:
   name: myapp-service
 spec:
+  type: NodePort
   selector:
-    labels:
       type: production
       name: customer
   ports:
