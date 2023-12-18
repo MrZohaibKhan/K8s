@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: worker
   labels:
-    type: testing
+    type: worker
 spec:
   containers:
     - name: worker

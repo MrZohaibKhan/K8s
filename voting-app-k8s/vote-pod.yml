@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: vote
   labels:
-    type: testing
+    type: vote
 spec:
   containers:
     - name: vote

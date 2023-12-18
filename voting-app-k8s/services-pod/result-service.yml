@@ -3,12 +3,12 @@ kind: Service
 metadata:
   name: result
   labels:
-    type: testing
+    type: result
 spec:
   selector:
-    type: testing
+    type: result
   type: NodePort
   ports:
     - port: 80
       targetPort: 80
-      nodePort: 30008
+      nodePort: 30022

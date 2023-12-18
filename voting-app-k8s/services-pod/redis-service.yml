@@ -3,9 +3,10 @@ kind: Service
 metadata:
   name: redis
   labels:
-    type: testing
+    type: redis
 spec:
   selector:
-    type: testing
+    type: redis
   ports:
     - port: 6379
+      targetPort: 6379

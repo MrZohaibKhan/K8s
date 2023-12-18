@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: db
   labels:
-    type: testing
+    type: db
 spec:
   containers:
     - name: db

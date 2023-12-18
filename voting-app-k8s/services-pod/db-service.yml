@@ -3,9 +3,10 @@ kind: Service
 metadata:
   name: db
   labels:
-    type: testing
+    type: db
 spec:
   selector:
-    type: testing
+    type: db
   ports:
     - port: 5432
+      targetPort: 5432

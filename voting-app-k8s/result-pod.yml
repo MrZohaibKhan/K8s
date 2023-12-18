@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: result
   labels:
-    type: testing
+    type: result
 spec:
   containers:
     - name: result

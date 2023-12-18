@@ -3,12 +3,12 @@ kind: Service
 metadata:
   name: vote
   labels:
-    type: testing
+    type: vote
 spec:
   selector:
-    type: testing
+    type: vote
   type: NodePort
   ports:
     - port: 80
       targetPort: 80
-      nodePort: 30007
+      nodePort: 30021
