@@ -8,13 +8,18 @@ spec:
   selector:
     matchLabels:
       type: production
+      name: customer
   replicas: 6
   template:
     metadata:
       name: myapp
       labels:
         type: production
+        name: customer
     spec:
       containers:
       -  name: myapp-ginx
          image: nginx
+         ports:
+           - containerPort: 80
+             protocol: TCP

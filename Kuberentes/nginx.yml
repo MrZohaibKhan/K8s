@@ -3,9 +3,11 @@ kind: Pod
 metadata:
   name: nginx2
   labels:
-    name: frontend
     type: production
 spec:
   containers:
-    - name: nginx2
+    - name: nginx
       image: nginx
+      ports:
+        - containerPort: 80
+          protocol: TCP

@@ -34,5 +34,3 @@ spec:
   - name: worker
     image: dockersamples/examplevotingapp_worker
     # no need to expose port
-
-  
