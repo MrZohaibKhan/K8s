@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: seed-data
+  labels:
+    type: seed-data    
+spec:
+  restartPolicy: Never
+  containers:
+    - name: seed-data
+      image: mrzohaib/seed-data
