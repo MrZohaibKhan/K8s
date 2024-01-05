@@ -8,7 +8,7 @@ spec:
   selector:
     labels:
       type: prod
-  replicasets: 4
+  replicas: 4
   template:
     metadata:
       name: nginx
