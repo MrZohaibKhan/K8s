@@ -6,7 +6,7 @@ metadata:
     type: prod
 spec:
   selector:
-    labels:
+    matchlabels:
       type: prod
   replicas: 4
   template:
@@ -19,6 +19,4 @@ spec:
       -  name: nginx
          image: nginx
       ports:
-      - containerPort: 80
-      - name: nginx
-        image: nginx
+        - containerPort: 80
